@@ -1,4 +1,4 @@
-﻿<h1 class="mt-4">Agregar/Editar Cines</h1>
+﻿<h1 class="mt-4">Cines</h1>
 <ol class="breadcrumb mb-4">
     <li class="breadcrumb-item">Inicio</li>
     <li class="breadcrumb-item">Cines</li>
@@ -12,6 +12,10 @@
     </div>
     <div class="card-body">
         <form>
+            <div class="form-floating mb-3">
+                <input class="form-control" type="date" id="fecha" placeholder="Fecha de Reserva" required />
+                <label for="fecha">Fecha de Reserva</label>
+            </div>
             <div class="form-floating mb-3">
                 <input class="form-control" placeholder="jaylli" />
                 <label for="inputEmail">Nombres</label>
@@ -27,6 +31,27 @@
             <div class="form-floating mb-3">
                 <input class="form-control" placeholder="100.5Kg" />
                 <label for="inputEmail">Número</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input class="form-control" placeholder="100.5Kg" />
+                <label for="inputEmail">¿Cuenta con niños?</label>
+            </div>
+            <div class="form-floating mb-3">
+                <label for="SEDE">Eliga su sede\n</label>
+                <select class="form-control" id="SEDE" name="SEDE" placeholder="Sede elegida" required>
+                    <option value="">--Seleccione la sede de su preferencia--</option>
+                    <option value="1">Cine Star Sur</option>
+                    <option value="2">Cine Planet - Mall del Sur</option>
+                    <option value="3">Cine Planet - Primavera</option>
+                    <option value="4">Cine Planet - Caminos del Inca</option>
+                    <option value="5">Cinemark - Jockey Plaza</option>
+                    <option value="6">Cinepolis - Plaza Norte</option>
+                    <option value="7">Cinepolis - Santa Catalina</option>
+                    <option value="8">Cine Star - Premium</option>
+                    <option value="9">Cine Star - Benavides</option>
+                    <option value="10">Cine Star - Comas</option>
+                    <option value="11">Cine Planet - Villa Maria del Triunfo</option>
+                </select>
             </div>
             <div class="d-flex align-items-center justify-content-between mt-4 mb-0">
                 <a class="small" href="#">Cancelar</a>
