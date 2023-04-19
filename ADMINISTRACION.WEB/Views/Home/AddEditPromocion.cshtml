@@ -13,8 +13,15 @@
     <div class="card-body">
         <form>
             <div class="form-floating mb-3">
-                <input class="form-control" placeholder="jaylli" />
                 <label for="inputEmail">Código de promoción</label>
+                <select class="form-control" id="COD_PRO" name="COD_PROMOCION" placeholder="Código de promoción" required>
+                    <option value="">--Seleccione el código de la promoción--</option>
+                    <option value="1">00381</option>
+                    <option value="2">00382</option>
+                    <option value="3">00383</option>
+                    <option value="4">00384</option>
+                    <option value="5">00385</option>
+                </select>
             </div>
             <div class="form-floating mb-3">
                 <input class="form-control" placeholder="jaylli" />
@@ -34,7 +41,7 @@
             </div>
             <div class="d-flex align-items-center justify-content-between mt-4 mb-0">
                 <a class="small" href="#">Cancelar</a>
-                <a class="btn btn-primary" href="#">Aceptar</a>
+                <a class="btn btn-primary" href="#">Agregar</a>
             </div>
         </form>
     </div>
